@@ -1,0 +1,64 @@
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.dice1 {
+  width: 100px;
+  height: 100px;
+  margin-right: 1px;
+  margin-top: 50px;
+}
+
+.dice2 {
+  width: 100px;
+  height: 100px;
+  margin-right: 5px;
+  margin-top: 50px;
+}
+
+#dice-container {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#roll-btn {
+  display: block;
+  margin: 20px auto;
+  background-color: grey;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 170px;
+}
+
+#score-container {
+  margin-top: 20px;
+}
+
+#winner-msg {
+  font-weight: bold;
+  color: green;
+}
+
+
+.player-dice-container {
+  position: relative;
+  display: inline-block;
+  margin: 0 3px;
+}
+
+.player-label {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: bold;
+  font-size: 20px;
+  padding-right: 10px;
+}
+
